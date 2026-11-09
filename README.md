@@ -17,5 +17,6 @@ A collection of hands-on workshops, labs, and interactive notebooks focusing on 
 ## 🚀 Getting Started
 
 1. Click any **"Open in Colab"** badge above.
-2. In Colab, navigate to **Runtime** > **Change runtime type**.
-3. Select **TPU v5e** (or your available TPU/GPU accelerator) and run the cells.
+2. The notebooks are configured to automatically select a **TPU v5e** runtime. If "TPU" is not selected automatically:
+   - Navigate to **Runtime** > **Change runtime type**.
+   - Under **Hardware accelerator**, select **TPU** (and choose **TPU v5e** if prompted).
